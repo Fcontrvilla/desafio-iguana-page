@@ -17,6 +17,7 @@ body {
     font-family: raleway;
     background-color: black;
     color: white;
+    font-weight: 600;
 }
 
 header {
@@ -55,5 +56,49 @@ header img {
 .contenedor-iconos {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 10px;
+
 }
+
+.icon1 {
+    padding: 20px;    
+}
+
+.icon2 {
+    padding: 20px;    
+}
+
+.icon3 {
+    padding: 20px;    
+}
+
+/*.album {
+    display: flex;
+}
+
+.album img {
+    
+    width: 20%;
+    padding:10px;
+    
+   
+}
+*/ 
+
+.album {
+    display: flex;
+    justify-content: center;      /* Centra horizontalmente */
+    gap: 30px;                   /* Espacio entre imágenes */
+    padding: 20px;
+  }
+  
+  .album img {
+    width: 300px;                 /* Tamaño fijo (puedes ajustar) */
+    height: auto;
+    border-radius: 5px;          /* Borde redondeado opcional */
+  }
+
+  .footer {
+    text-align: center;
+    padding: 20px;
+  }
