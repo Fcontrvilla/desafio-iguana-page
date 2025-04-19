@@ -66,15 +66,18 @@ header img {
   .texto {
     font-weight: 300; 
     text-align: left;
-    padding-left: 30px;
+    padding-left: 40px;
   }
 
   .imagen img {
-    width: 399px;
+    width: 600px;
     height: auto;
-    display: block;
+    padding-left: 10rem;
   }
 
+  .icon2 img {
+    color: white;
+  }
 
 
 .caracteristicas {
@@ -96,7 +99,7 @@ header img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     /*justify-content: center;*/
     padding-top: 10px;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 100;
     padding-bottom: 40px;
 }   
@@ -159,4 +162,5 @@ font-size: 35px;
     padding: 20px;
     padding-top: 50px;
     padding-bottom: 30px;
+    
   }
