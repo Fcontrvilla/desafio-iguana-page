@@ -32,27 +32,6 @@ header {
 header img {
     width: 100%;
 }
-/*
-.descripcion p {
-    display: flex;
-    padding-left: 150px;
-    text-align: left;
-    font-weight: 300;
-    vertical-align: middle;
-}
-.descripcion p {
-    padding-top: 76px; 
-    width: 399px;
-    height: 237px;
-}
-
-.descripcion img {
-    display: flex;
-    width: 399px;
-    height: 237px;
-    
-} */
-
 
 .grid-container {
     display: grid;
